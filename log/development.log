@@ -1,0 +1,389 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-02-06 21:11:07 -0430
+Served asset /rails.png - 200 OK (88ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2012-02-06 21:12:58 -0430
+  Processing by Rails::InfoController#properties as */*
+Rendered inline template (72.3ms)
+Completed 200 OK in 280ms (Views: 280.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-02-06 22:13:46 -0430
+Served asset /rails.png - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:20:17 -0430
+
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (52.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:21:08 -0430
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled application.css  (20ms)  (pid 4048)
+Compiled home.css  (5ms)  (pid 4048)
+Compiled application.js  (7ms)  (pid 4048)
+Compiled jquery.js  (8ms)  (pid 4048)
+Compiled jquery_ujs.js  (0ms)  (pid 4048)
+Compiled home.js  (555ms)  (pid 4048)
+Completed 200 OK in 854ms (Views: 853.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-06 22:21:09 -0430
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-02-06 22:21:09 -0430
+Served asset /home.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-06 22:21:09 -0430
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-06 22:21:09 -0430
+Served asset /home.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-06 22:21:09 -0430
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-06 22:21:09 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:47:19 -0430
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled application.css  (2ms)  (pid 4048)
+Compiled eventos2s.css  (2ms)  (pid 4048)
+Compiled scaffolds.css  (11ms)  (pid 4048)
+Compiled application.js  (5ms)  (pid 4048)
+Compiled eventos2s.js  (199ms)  (pid 4048)
+Completed 200 OK in 394ms (Views: 393.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-02-06 22:47:19 -0430
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-06 22:47:19 -0430
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-06 22:47:19 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-06 22:47:19 -0430
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/eventos2s.css?body=1" for 127.0.0.1 at 2012-02-06 22:47:19 -0430
+Served asset /eventos2s.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-06 22:47:19 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/eventos2s.js?body=1" for 127.0.0.1 at 2012-02-06 22:47:19 -0430
+Served asset /eventos2s.js - 200 OK (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-06 22:47:19 -0430
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-06 22:47:19 -0430
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:49:23 -0430
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (104.5ms)
+Completed 500 Internal Server Error in 113ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"eventos2s"}):
+    1: <h1>Hello, Rails!</h1>
+    2: <%= link_to "Eventos ", eventos2_path %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___1048027276_30694776'
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:49:34 -0430
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined local variable or method `eventos_path' for #<#<Class:0x3c19d40>:0x3bd1878>):
+    1: <h1>Hello, Rails!</h1>
+    2: <%= link_to "Eventos ", eventos_path %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___1048027276_31357908'
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:49:44 -0430
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"eventos2s"}):
+    1: <h1>Hello, Rails!</h1>
+    2: <%= link_to "Eventos", eventos2_path %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___1048027276_41234712'
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:50:18 -0430
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Eventos2_path):
+    1: <h1>Hello, Rails!</h1>
+    2: <%= link_to "Eventos", Eventos2_path %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___1048027276_27901488'
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:51:29 -0430
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (13.7ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined local variable or method `eventos_path' for #<#<Class:0x3bc9b20>:0x3bc6988>):
+    1: <h1>Hello, Rails!</h1>
+    2: <%= link_to "Eventos", eventos_path %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___1048027276_31338036'
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:51:57 -0430
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-06 22:51:58 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/eventos2s.css?body=1" for 127.0.0.1 at 2012-02-06 22:51:58 -0430
+Served asset /eventos2s.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-06 22:51:58 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-02-06 22:51:58 -0430
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-06 22:51:58 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-06 22:51:58 -0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-06 22:51:58 -0430
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/eventos2s.js?body=1" for 127.0.0.1 at 2012-02-06 22:51:58 -0430
+Served asset /eventos2s.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-06 22:51:58 -0430
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/eventos2s" for 127.0.0.1 at 2012-02-06 22:51:59 -0430
+  Processing by Eventos2sController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'eventos2s'):
+  app/controllers/eventos2s_controller.rb:5:in `index'
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/eventos2s" for 127.0.0.1 at 2012-02-06 22:52:36 -0430
+  Processing by Eventos2sController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'eventos2s'):
+  app/controllers/eventos2s_controller.rb:5:in `index'
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:55:09 -0430
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (23.4ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Eventos2_path):
+    1: <h1>Hello, Rails!</h1>
+    2: <%= link_to "Eventos", Eventos2_path %>
+  app/views/home/index.html.erb:2:in `_app_views_home_index_html_erb___1048027276_27617796'
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-06 22:56:08 -0430
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.0ms)
+Compiled application.css  (25ms)  (pid 4048)
+Compiled eventos.css  (4ms)  (pid 4048)
+Compiled application.js  (6ms)  (pid 4048)
+Compiled eventos.js  (118ms)  (pid 4048)
+Completed 200 OK in 274ms (Views: 274.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-02-06 22:56:09 -0430
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-06 22:56:09 -0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-06 22:56:09 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/eventos.css?body=1" for 127.0.0.1 at 2012-02-06 22:56:09 -0430
+Served asset /eventos.css - 200 OK (2ms)
+
+
+Started GET "/assets/eventos2s.css?body=1" for 127.0.0.1 at 2012-02-06 22:56:09 -0430
+Served asset /eventos2s.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-06 22:56:09 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-06 22:56:09 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-06 22:56:09 -0430
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/eventos.js?body=1" for 127.0.0.1 at 2012-02-06 22:56:09 -0430
+Served asset /eventos.js - 200 OK (1ms)
+
+
+Started GET "/assets/eventos2s.js?body=1" for 127.0.0.1 at 2012-02-06 22:56:09 -0430
+Served asset /eventos2s.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-06 22:56:09 -0430
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/eventos" for 127.0.0.1 at 2012-02-06 22:56:10 -0430
+  Processing by EventosController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'eventos'):
+  app/controllers/eventos_controller.rb:5:in `index'
+
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (105.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (99.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateEventos2s (20120207030225)
+  [1m[35m (1.0ms)[0m  CREATE TABLE "eventos2s" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "titulo" varchar(255), "fecha" datetime, "contenido" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120207030225')[0m
+Migrating to CreateEventos (20120207032559)
+  [1m[35m (1.0ms)[0m  CREATE TABLE "eventos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "titulo" varchar(255), "fecha" datetime, "contenido" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120207032559')[0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("eventos")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("eventos2s")[0m
+
+
+Started GET "/eventos" for 127.0.0.1 at 2012-02-06 22:58:20 -0430
+  Processing by EventosController#index as HTML
+  [1m[36mEvento Load (0.0ms)[0m  [1mSELECT "eventos".* FROM "eventos" [0m
+Rendered eventos/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-06 22:58:21 -0430
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-06 22:58:21 -0430
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/eventos.css?body=1" for 127.0.0.1 at 2012-02-06 22:58:21 -0430
+Served asset /eventos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/eventos2s.css?body=1" for 127.0.0.1 at 2012-02-06 22:58:21 -0430
+Served asset /eventos2s.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-02-06 22:58:21 -0430
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-06 22:58:21 -0430
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-06 22:58:21 -0430
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/eventos.js?body=1" for 127.0.0.1 at 2012-02-06 22:58:21 -0430
+Served asset /eventos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-06 22:58:21 -0430
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/eventos2s.js?body=1" for 127.0.0.1 at 2012-02-06 22:58:21 -0430
+Served asset /eventos2s.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-06 22:58:21 -0430
+Served asset /application.js - 304 Not Modified (0ms)
